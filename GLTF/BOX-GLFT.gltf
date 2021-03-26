@@ -1,0 +1,458 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        0.0,
+        0.0,
+        1.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.9966580867767334,
+        0.65283584594726563
+      ],
+      "min": [
+        0.0040557663887739182,
+        0.0040557663887739182
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.97589123249053955
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.017628978937864304
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        0.65385353565216064
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2019.4.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "BOX-GLFT.bin",
+      "byteLength": 39544
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 960,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1344,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1488,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7668,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13848,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22088,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26208,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30328,
+      "byteLength": 9216
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Default-Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ],
+      "name": "Sphere"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "BOX-GLFT"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        0.28
+      ],
+      "translation": [
+        0.0,
+        -4.98,
+        4.83
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        0.28
+      ],
+      "translation": [
+        0.0,
+        -4.98,
+        -4.76
+      ],
+      "name": "Cube (1)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        0.28
+      ],
+      "translation": [
+        4.9,
+        -4.98,
+        -0.08
+      ],
+      "name": "Cube (2)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.7071068,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        0.28
+      ],
+      "translation": [
+        -4.86,
+        -4.98,
+        0.12
+      ],
+      "name": "Cube (3)"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        0.28
+      ],
+      "translation": [
+        0.0,
+        -9.82,
+        0.08
+      ],
+      "name": "Cube (4)"
+    },
+    {
+      "children": [
+        7
+      ],
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        -9.11,
+        3.4
+      ],
+      "name": "Sphere"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        1.67,
+        -1.4
+      ],
+      "name": "Point Light"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "BOX-GLFT"
+    }
+  ]
+}
