@@ -1,0 +1,282 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2565,
+      "type": "VEC3",
+      "max": [
+        0.37390381097793579,
+        0.31092551350593567,
+        0.24935649335384369
+      ],
+      "min": [
+        -0.37796542048454285,
+        0.0026387432590126991,
+        -0.26891586184501648
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2565,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2565,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2565,
+      "type": "VEC2",
+      "max": [
+        0.99945628643035889,
+        0.99709612131118774
+      ],
+      "min": [
+        0.0033900055568665266,
+        0.0024524684995412827
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2565,
+      "type": "VEC2",
+      "max": [
+        0.99000000953674316,
+        0.98178780078887939
+      ],
+      "min": [
+        0.0099999997764825821,
+        0.0099999997764825821
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 5625,
+      "type": "SCALAR",
+      "max": [
+        2564.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.2f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "ORAKEL-CubeV4.bin",
+      "byteLength": 166140
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30780
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30780,
+      "byteLength": 30780
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 61560,
+      "byteLength": 41040
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 102600,
+      "byteLength": 20520
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 123120,
+      "byteLength": 20520
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 143640,
+      "byteLength": 22500
+    }
+  ],
+  "images": [
+    {
+      "uri": "chest_normal.jpg",
+      "name": "chest_normal"
+    },
+    {
+      "uri": "chest_color.jpg",
+      "name": "chest_color"
+    },
+    {
+      "uri": "chest_metallic_smoothnes_2.png",
+      "name": "chest_metallic_smoothnes_2"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.99,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "name": "alb"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "medieval_chest"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.283654571,
+        -0.154790267,
+        0.7488704
+      ],
+      "name": "ORAKEL-CubeV4"
+    },
+    {
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        -0.7071068
+      ],
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        -3.39,
+        3.93,
+        1.97
+      ],
+      "name": "Spot Light"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        8.146034E-08,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        13.2272282,
+        25.9710464,
+        19.64
+      ],
+      "translation": [
+        -0.2827125,
+        -11.54,
+        -0.843144357
+      ],
+      "name": "medieval_chest"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    },
+    {
+      "minFilter": 9729,
+      "WrapS": 33071,
+      "WrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "ORAKEL-CubeV4"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "chest_normal"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "chest_color"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "chest_metallic_smoothnes_2"
+    }
+  ]
+}
